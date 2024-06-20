@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     '~/assets/global.scss',
   ],
   auth: {
-    baseURL: 'http://localhost:8000',
+    baseURL: 'http://localhost:3000/',
     provider: {
       type: 'local',
       endpoints: {
